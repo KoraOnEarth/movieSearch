@@ -1,0 +1,47 @@
+.container {
+	display: contents;
+	width: 100%;
+	/* align-items: center;
+	justify-content: center; */
+	height: 100vh;
+}
+
+.infoall {
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+	margin: 0 0 40px 0;
+}
+.infoall .poster {
+	position: relative;
+}
+.infoall .poster img {
+	width: 300px;
+}
+
+.infoall .info {
+	display: block;
+	color: #fff;
+	margin-left: 50px;
+}
+.infoall .info h2 {
+	font-size: 30px;
+}
+
+.infoall .info p {
+	margin-top: 15px;
+}
+.video {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	margin: 0 0 20px 0;
+}
+.video h3 {
+	display: flex;
+	color: #fff;
+	font-size: 25px;
+	margin: 15px 0 20px 0;
+}
